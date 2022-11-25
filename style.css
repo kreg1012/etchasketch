@@ -1,0 +1,21 @@
+#gridCont {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+* [id*="row"] { 
+    background-color: red; 
+    height: 30px;
+    flex: 0 0 1em;
+    
+  } 
+
+  * [id*="column"] { 
+    background-color: red; 
+    height: 30px;
+    flex: 0 0 1em;
+    
+  } 
